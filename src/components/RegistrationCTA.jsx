@@ -115,7 +115,7 @@ const RegistrationCTA = () => {
                 <span className="text-cyan-400 font-semibold">
                   Bank Name :
                 </span>{" "}
-                HDFC Bank
+                XXXX XXXX
               </div>
 
               <div>
@@ -129,7 +129,7 @@ const RegistrationCTA = () => {
                 <span className="text-cyan-400 font-semibold">
                   IFSC Code :
                 </span>{" "}
-                HDFCXXXXXXX
+                XXXXXXXXXXX
               </div>
 
               <div>
