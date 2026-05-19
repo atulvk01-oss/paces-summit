@@ -108,36 +108,36 @@ const RegistrationCTA = () => {
                 <span className="text-cyan-400 font-semibold">
                   Account Name :
                 </span>{" "}
-                MP PACES Summit 2026
+                Pulmonary and Critical Care Education Society
               </div>
 
               <div>
                 <span className="text-cyan-400 font-semibold">
-                  Bank Name :
+                  Bank Name : 
                 </span>{" "}
-                XXXX XXXX
+                Axis Bank
               </div>
 
               <div>
                 <span className="text-cyan-400 font-semibold">
                   Account Number :
                 </span>{" "}
-                XXXXXXXXXXXXXX
+                926010020408505
               </div>
 
               <div>
                 <span className="text-cyan-400 font-semibold">
                   IFSC Code :
                 </span>{" "}
-                XXXXXXXXXXX
+                UTIB0004476
               </div>
 
-              <div>
+              {/* <div>
                 <span className="text-cyan-400 font-semibold">
                   Branch :
                 </span>{" "}
                 XXXXX XXXXX, XXXXXX
-              </div>
+              </div> */}
 
             </div>
 
