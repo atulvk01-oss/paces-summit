@@ -2,21 +2,21 @@ import speaker1 from "../assets/speakers/speaker1.webp";
 import speaker2 from "../assets/speakers/speaker2.webp";
 import speaker3 from "../assets/speakers/speaker3.webp";
 import speaker4 from "../assets/speakers/speaker4.jpg";
-import speaker5 from "../assets/speakers/speaker5.webp";
-import speaker6 from "../assets/speakers/speaker6.webp";
+import speaker5 from "../assets/speakers/speaker5.png";
+import speaker6 from "../assets/speakers/speaker6.png";
 import speaker7 from "../assets/speakers/speaker7.webp";
-import speaker8 from "../assets/speakers/speaker8.jpeg";
+import speaker8 from "../assets/speakers/speaker8.png";
 import speaker9 from "../assets/speakers/speaker9.jpeg";
-import speaker10 from "../assets/speakers/speaker10.webp";
-// import speaker11 from "../assets/speakers/speaker11.jpeg";
+import speaker10 from "../assets/speakers/speaker10.png";
+import speaker11 from "../assets/speakers/speaker11.png";
 import speaker12 from "../assets/speakers/speaker12.jpeg";
 import speaker13 from "../assets/speakers/speaker13.jpeg";
 import speaker14 from "../assets/speakers/speaker14.jpeg";
-import speaker15 from "../assets/speakers/speaker15.jpeg";
+import speaker15 from "../assets/speakers/speaker15.png";
 import speaker16 from "../assets/speakers/speaker16.png";
 import speaker17 from "../assets/speakers/speaker17.jpg";
-import speaker18 from "../assets/speakers/speaker18.jpg";
-import speaker19 from "../assets/speakers/speaker19.jpeg";
+import speaker18 from "../assets/speakers/speaker18.png";
+import speaker19 from "../assets/speakers/speaker19.png";
 import speaker20 from "../assets/speakers/speaker20.jpeg";
 import speaker21 from "../assets/speakers/speaker21.jpeg";
 import speaker22 from "../assets/speakers/speaker22.jpeg";
@@ -77,11 +77,11 @@ const speakers = [
     city: "AHMEDABAD",
     image: speaker10,
   },
-  // {
-  //   name: "DR. INDRANIL HALDAR",
-  //   city: "KOLKATA",
-  //   image: speaker11,
-  // },
+  {
+    name: "DR. ANAND SANGHI",
+    city: "INDORE",
+    image: speaker11,
+  },
   {
     name: "DR. VIJAY HADDA",
     city: "DELHI",
@@ -138,8 +138,8 @@ const speakers = [
     image: speaker22,
   },
   {
-    name: "DR. SANTOSH JHA",
-    city: "MUMBAI",
+    name: "DR. VIKAS K. MISHRA",
+    city: "BHOPAL",
     image: speaker23,
   },
   {
