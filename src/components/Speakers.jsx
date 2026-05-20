@@ -1,10 +1,10 @@
 import speaker1 from "../assets/speakers/speaker1.webp";
 import speaker2 from "../assets/speakers/speaker2.webp";
 import speaker3 from "../assets/speakers/speaker3.webp";
-import speaker4 from "../assets/speakers/speaker4.jpg";
+// import speaker4 from "../assets/speakers/speaker4.jpg";
 import speaker5 from "../assets/speakers/speaker5.png";
 import speaker6 from "../assets/speakers/speaker6.png";
-import speaker7 from "../assets/speakers/speaker7.webp";
+// import speaker7 from "../assets/speakers/speaker7.webp";
 import speaker8 from "../assets/speakers/speaker8.png";
 import speaker9 from "../assets/speakers/speaker9.jpeg";
 import speaker10 from "../assets/speakers/speaker10.png";
@@ -18,14 +18,14 @@ import speaker17 from "../assets/speakers/speaker17.jpg";
 import speaker18 from "../assets/speakers/speaker18.png";
 import speaker19 from "../assets/speakers/speaker19.png";
 import speaker20 from "../assets/speakers/speaker20.jpeg";
-import speaker21 from "../assets/speakers/speaker21.jpeg";
+// import speaker21 from "../assets/speakers/speaker21.jpeg";
 import speaker22 from "../assets/speakers/speaker22.jpeg";
 import speaker23 from "../assets/speakers/speaker23.png";
-import speaker24 from "../assets/speakers/speaker24.png";
-import speaker25 from "../assets/speakers/speaker25.png";
-import speaker26 from "../assets/speakers/speaker26.jpeg";
-import speaker27 from "../assets/speakers/speaker27.jpeg";
-import speaker28 from "../assets/speakers/speaker28.jpeg";
+// import speaker24 from "../assets/speakers/speaker24.png";
+// import speaker25 from "../assets/speakers/speaker25.png";
+// import speaker26 from "../assets/speakers/speaker26.jpeg";
+// import speaker27 from "../assets/speakers/speaker27.jpeg";
+// import speaker28 from "../assets/speakers/speaker28.jpeg";
 const speakers = [
   {
     name: "DR. S K CHABRA",
@@ -42,11 +42,11 @@ const speakers = [
     city: "NOIDA",
     image: speaker3,
   },
-  {
-    name: "DR. ANAND JAISWAL",
-    city: "DELHI",
-    image: speaker4,
-  },
+  // {
+  //   name: "DR. ANAND JAISWAL",
+  //   city: "DELHI",
+  //   image: speaker4,
+  // },
   {
     name: "DR. DHRUVA CHOUDHRY",
     city: "ROHTAK",
@@ -57,11 +57,11 @@ const speakers = [
     city: "Mumbai",
     image: speaker6,
   },
-  {
-    name: "DR. PRALHAD PRABHUDESAI",
-    city: "MUMBAI",
-    image: speaker7,
-  },
+  // {
+  //   name: "DR. PRALHAD PRABHUDESAI",
+  //   city: "MUMBAI",
+  //   image: speaker7,
+  // },
   {
     name: "DR. SANJEEV MEHTA",
     city: "MUMBAI",
@@ -127,11 +127,11 @@ const speakers = [
     city: "INDORE",
     image: speaker20,
   },
-  {
-    name: "DR. MADHUR JOSHI",
-    city: "JAIPUR",
-    image: speaker21,
-  },
+  // {
+  //   name: "DR. MADHUR JOSHI",
+  //   city: "JAIPUR",
+  //   image: speaker21,
+  // },
   {
     name: "DR. MADHUR KALRA",
     city: "CHANDIGARH",
@@ -142,31 +142,31 @@ const speakers = [
     city: "BHOPAL",
     image: speaker23,
   },
-  {
-    name: "DR. SWAPNIL THORVE",
-    city: "MUMBAI",
-    image: speaker24,
-  },
-   {
-    name: "DR. HEMIL JASANI",
-    city: "MUMBAI",
-    image: speaker25,
-  },
-  {
-    name: "DR. FATIMA MAMNOON",
-    city: "DELHI",
-    image: speaker26,
-  },
-  {
-    name: "DR. MITI MANIAR",
-    city: "MUMBAI",
-    image: speaker27,
-  },
-   {
-    name: "DR. NAMRATA MODI",
-    city: "NASHIK",
-    image: speaker28,
-  },
+  // {
+  //   name: "DR. SWAPNIL THORVE",
+  //   city: "MUMBAI",
+  //   image: speaker24,
+  // },
+  //  {
+  //   name: "DR. HEMIL JASANI",
+  //   city: "MUMBAI",
+  //   image: speaker25,
+  // // },
+  // {
+  //   name: "DR. FATIMA MAMNOON",
+  //   city: "DELHI",
+  //   image: speaker26,
+  // },
+  // {
+  //   name: "DR. MITI MANIAR",
+  //   city: "MUMBAI",
+  //   image: speaker27,
+  // },
+  //  {
+  //   name: "DR. NAMRATA MODI",
+  //   city: "NASHIK",
+  //   image: speaker28,
+  // },
   
 ];
 
