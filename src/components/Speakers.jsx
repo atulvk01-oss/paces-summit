@@ -18,7 +18,7 @@ import speaker17 from "../assets/speakers/speaker17.jpg";
 import speaker18 from "../assets/speakers/speaker18.png";
 import speaker19 from "../assets/speakers/speaker19.png";
 import speaker20 from "../assets/speakers/speaker20.jpeg";
-// import speaker21 from "../assets/speakers/speaker21.jpeg";
+import speaker21 from "../assets/speakers/speaker21.png";
 import speaker22 from "../assets/speakers/speaker22.jpeg";
 import speaker23 from "../assets/speakers/speaker23.png";
 import speaker24 from "../assets/speakers/speaker24.png";
@@ -118,7 +118,7 @@ const speakers = [
     image: speaker18,
   },
   {
-    name: "DR. BAJRANG SINGH",
+    name: "DR. BAJRANG KUMAR SINGH",
     city: "INDORE",
     image: speaker19,
   },
@@ -127,11 +127,11 @@ const speakers = [
     city: "INDORE",
     image: speaker20,
   },
-  // {
-  //   name: "DR. MADHUR JOSHI",
-  //   city: "JAIPUR",
-  //   image: speaker21,
-  // },
+  {
+    name: "DR. P. N. AGRAWAL",
+    city: "BHOPAL",
+    image: speaker21,
+  },
   {
     name: "DR. MADHUR KALRA",
     city: "CHANDIGARH",
