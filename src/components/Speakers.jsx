@@ -1,7 +1,7 @@
 import speaker1 from "../assets/speakers/speaker1.webp";
 import speaker2 from "../assets/speakers/speaker2.webp";
 import speaker3 from "../assets/speakers/speaker3.webp";
-// import speaker4 from "../assets/speakers/speaker4.jpg";
+import speaker4 from "../assets/speakers/speaker4.jpg";
 import speaker5 from "../assets/speakers/speaker5.png";
 import speaker6 from "../assets/speakers/speaker6.png";
 // import speaker7 from "../assets/speakers/speaker7.webp";
@@ -42,11 +42,11 @@ const speakers = [
     city: "NOIDA",
     image: speaker3,
   },
-  // {
-  //   name: "DR. ANAND JAISWAL",
-  //   city: "DELHI",
-  //   image: speaker4,
-  // },
+  {
+    name: "DR. ANAND JAISWAL",
+    city: "DELHI",
+    image: speaker4,
+  },
   {
     name: "DR. DHRUVA CHOUDHRY",
     city: "ROHTAK",
