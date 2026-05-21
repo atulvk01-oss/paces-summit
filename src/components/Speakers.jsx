@@ -21,7 +21,7 @@ import speaker20 from "../assets/speakers/speaker20.jpeg";
 // import speaker21 from "../assets/speakers/speaker21.jpeg";
 import speaker22 from "../assets/speakers/speaker22.jpeg";
 import speaker23 from "../assets/speakers/speaker23.png";
-// import speaker24 from "../assets/speakers/speaker24.png";
+import speaker24 from "../assets/speakers/speaker24.png";
 // import speaker25 from "../assets/speakers/speaker25.png";
 // import speaker26 from "../assets/speakers/speaker26.jpeg";
 // import speaker27 from "../assets/speakers/speaker27.jpeg";
@@ -142,11 +142,11 @@ const speakers = [
     city: "BHOPAL",
     image: speaker23,
   },
-  // {
-  //   name: "DR. SWAPNIL THORVE",
-  //   city: "MUMBAI",
-  //   image: speaker24,
-  // },
+  {
+    name: "DR. SUMIT BANGERIA",
+    city: "MUMBAI",
+    image: speaker24,
+  },
   //  {
   //   name: "DR. HEMIL JASANI",
   //   city: "MUMBAI",
