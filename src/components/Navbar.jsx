@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import logo from "../assets/logos/paces-logo1.png";
+import logo from "../assets/logos/paces-logo1.jpeg";
 
 const Navbar = () => {
   return (
