@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative w-full h-screen overflow-hidden"
+      className="relative w-full overflow-hidden"
     >
 
       <Swiper
@@ -21,19 +21,19 @@ const Hero = () => {
         }}
         pagination={{ clickable: true }}
         loop={true}
-        className="h-screen"
+        className="w-full"
       >
 
         {/* ====================== Slide 1 ====================== */}
         <SwiperSlide>
 
-          <div className="relative w-full h-screen overflow-hidden">
+          <div className="relative w-full overflow-hidden">
 
             {/* Background Image */}
             <img
               src="/slider/slide1.jpeg"
               alt="PACES Summit"
-              className="w-full h-full object-cover scale-100 brightness-125 contrast-110 saturate-125"
+              className="w-full h-[220px] sm:h-[350px] md:h-auto object-contain bg-[#031826]"
             />
 
             {/* Very Light Overlay */}
@@ -49,13 +49,13 @@ const Hero = () => {
         {/* ====================== Slide 2 ====================== */}
         <SwiperSlide>
 
-          <div className="relative w-full h-screen overflow-hidden">
+          <div className="relative w-full overflow-hidden">
 
             {/* Background Image */}
             <img
               src="/slider/slider2.png"
               alt="Medical Conference"
-              className="w-full h-full object-cover"
+              className="w-full h-[220px] sm:h-[350px] md:h-auto object-cover"
             />
 
             {/* Overlay */}
@@ -70,11 +70,11 @@ const Hero = () => {
                 transition={{ duration: 1 }}
               >
 
-                <h2 className="text-5xl lg:text-7xl font-black mb-8">
+                <h2 className="text-2xl sm:text-4xl lg:text-7xl font-black mb-4 md:mb-8">
                   Eminent National Speakers
                 </h2>
 
-                <p className="text-xl max-w-3xl mx-auto leading-10 text-gray-200">
+                <p className="text-sm sm:text-lg max-w-3xl mx-auto leading-6 sm:leading-10 text-gray-200">
                   Join renowned pulmonologists and healthcare experts
                   from across India for insightful discussions and innovation.
                 </p>
