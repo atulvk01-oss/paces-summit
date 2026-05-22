@@ -2,42 +2,43 @@ const RegistrationCTA = () => {
   return (
     <section
       id="register"
-      className="py-20 px-6 bg-[#031826]"
+      className="py-20 px-4 sm:px-6 bg-[#031826]"
     >
-
       <div className="max-w-7xl mx-auto">
 
         {/* ================= Registration Heading ================= */}
         <div className="text-center mb-14">
 
-          <h2 className="inline-block bg-cyan-700 text-white px-10 py-4 rounded-2xl text-4xl font-black shadow-lg">
+          <h2 className="inline-block bg-cyan-700 text-white px-6 sm:px-10 py-3 sm:py-4 rounded-2xl text-2xl sm:text-4xl font-black shadow-lg">
             REGISTRATION DETAILS
           </h2>
 
         </div>
 
         {/* ================= Registration Table ================= */}
-        <div className="overflow-x-auto rounded-[30px] shadow-2xl mb-16">
+        <div className="rounded-[30px] shadow-2xl mb-16 overflow-hidden bg-white">
 
-          <table className="w-full border-collapse overflow-hidden rounded-[30px]">
+          <table className="w-full border-collapse text-[10px] sm:text-sm md:text-base">
 
             <thead>
 
               <tr className="bg-cyan-800 text-white text-center">
 
-                <th className="p-5 border border-cyan-200 text-lg">
+                <th className="p-2 sm:p-5 border border-cyan-200">
                   PARTICULARS
                 </th>
 
-                <th className="p-5 border border-cyan-200 text-lg">
-                  EARLY BIRD TILL 31ST MAY
+                <th className="p-2 sm:p-5 border border-cyan-200">
+                  EARLY BIRD <br className="block sm:hidden" />
+                  TILL 31ST MAY
                 </th>
 
-                <th className="p-5 border border-cyan-200 text-lg">
-                  LATE REGISTRATION 1ST JUNE - 12TH JUNE
+                <th className="p-2 sm:p-5 border border-cyan-200">
+                  LATE REGISTRATION <br />
+                  1ST JUNE - 12TH JUNE
                 </th>
 
-                <th className="p-5 border border-cyan-200 text-lg">
+                <th className="p-2 sm:p-5 border border-cyan-200">
                   SPOT
                 </th>
 
@@ -49,21 +50,21 @@ const RegistrationCTA = () => {
 
               <tr className="bg-cyan-50 text-center">
 
-                <td className="p-5 border border-cyan-200 font-bold text-cyan-700">
+                <td className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700">
                   ICS, API, MPAP MEMBERS & PG
                 </td>
 
-                <td className="p-5 border border-cyan-200 font-bold text-cyan-700 text-xl">
+                <td className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700">
                   2,000/-
                 </td>
 
-                <td className="p-5 border border-cyan-200 font-bold text-cyan-700 text-xl">
+                <td className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700">
                   2,500/-
                 </td>
 
                 <td
                   rowSpan="2"
-                  className="p-5 border border-cyan-200 font-bold text-cyan-700 text-xl"
+                  className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700"
                 >
                   4,000/-
                 </td>
@@ -72,15 +73,15 @@ const RegistrationCTA = () => {
 
               <tr className="bg-white text-center">
 
-                <td className="p-5 border border-cyan-200 font-bold text-cyan-700">
+                <td className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700">
                   NON MEMBERS
                 </td>
 
-                <td className="p-5 border border-cyan-200 font-bold text-cyan-700 text-xl">
+                <td className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700">
                   2,500/-
                 </td>
 
-                <td className="p-5 border border-cyan-200 font-bold text-cyan-700 text-xl">
+                <td className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700">
                   3,000/-
                 </td>
 
@@ -96,13 +97,13 @@ const RegistrationCTA = () => {
         <div className="grid lg:grid-cols-2 gap-10 mb-14">
 
           {/* Bank Details */}
-          <div className="bg-[#0B1720] border border-cyan-800 rounded-[30px] p-8 shadow-2xl">
+          <div className="bg-[#0B1720] border border-cyan-800 rounded-[30px] p-5 sm:p-8 shadow-2xl">
 
-            <h3 className="text-3xl font-black text-cyan-400 mb-8">
+            <h3 className="text-2xl sm:text-3xl font-black text-cyan-400 mb-8">
               Bank Details
             </h3>
 
-            <div className="space-y-5 text-white text-lg">
+            <div className="space-y-5 text-white text-sm sm:text-lg break-words">
 
               <div>
                 <span className="text-cyan-400 font-semibold">
@@ -113,7 +114,7 @@ const RegistrationCTA = () => {
 
               <div>
                 <span className="text-cyan-400 font-semibold">
-                  Bank Name : 
+                  Bank Name :
                 </span>{" "}
                 Axis Bank
               </div>
@@ -132,31 +133,24 @@ const RegistrationCTA = () => {
                 UTIB0004476
               </div>
 
-              {/* <div>
-                <span className="text-cyan-400 font-semibold">
-                  Branch :
-                </span>{" "}
-                XXXXX XXXXX, XXXXXX
-              </div> */}
-
             </div>
 
           </div>
 
           {/* QR Code */}
-          <div className="bg-[#0B1720] border border-cyan-800 rounded-[30px] p-8 shadow-2xl flex flex-col items-center justify-center">
+          <div className="bg-[#0B1720] border border-cyan-800 rounded-[30px] p-5 sm:p-8 shadow-2xl flex flex-col items-center justify-center">
 
-            <h3 className="text-3xl font-black text-cyan-400 mb-8">
+            <h3 className="text-2xl sm:text-3xl font-black text-cyan-400 mb-8">
               Scan & Pay
             </h3>
 
             <img
               src="/qr/qr-code.png"
               alt="QR Code"
-              className="w-72 h-72 object-contain rounded-2xl bg-white p-4"
+              className="w-52 h-52 sm:w-72 sm:h-72 object-contain rounded-2xl bg-white p-4"
             />
 
-            <p className="text-gray-400 mt-6 text-center">
+            <p className="text-gray-400 mt-6 text-center text-sm sm:text-base">
               Scan the QR code to complete your registration payment.
             </p>
 
@@ -164,7 +158,7 @@ const RegistrationCTA = () => {
 
         </div>
 
-        {/* ================= Register Button BOTTOM ================= */}
+        {/* ================= Register Button ================= */}
         <div className="text-center">
 
           <a
@@ -173,7 +167,7 @@ const RegistrationCTA = () => {
             rel="noreferrer"
           >
 
-            <button className="bg-cyan-500 hover:bg-cyan-600 text-white px-10 py-5 rounded-full text-xl font-semibold transition-all duration-300 shadow-lg hover:scale-105">
+            <button className="bg-cyan-500 hover:bg-cyan-600 text-white px-6 sm:px-10 py-4 sm:py-5 rounded-full text-lg sm:text-xl font-semibold transition-all duration-300 shadow-lg hover:scale-105">
 
               Register Now
 
@@ -184,7 +178,6 @@ const RegistrationCTA = () => {
         </div>
 
       </div>
-
     </section>
   );
 };
