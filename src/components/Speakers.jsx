@@ -144,7 +144,7 @@ const speakers = [
   },
   {
     name: "DR. SUMIT BANGERIA",
-    city: "MUMBAI",
+    city: "INDORE",
     image: speaker24,
   },
   //  {
