@@ -62,61 +62,82 @@ const CountdownTimer = () => {
 
     return () => clearInterval(timer);
 
-  }, [eventDate]);
+  }, []);
 
   return (
-    <div className="glass p-10 rounded-3xl text-center w-full max-w-md shadow-2xl border border-cyan-900">
 
-      <h2 className="text-3xl font-bold mb-8 gradient-text">
-        Event Countdown
-      </h2>
+    <div className="w-full px-4">
 
-      <div className="grid grid-cols-4 gap-4 text-center">
+      <div className="glass p-6 sm:p-10 rounded-3xl text-center w-full max-w-4xl mx-auto shadow-2xl border border-cyan-900 overflow-hidden">
 
-        <div className="bg-[#0B1720] p-4 rounded-2xl">
-          <h3 className="text-4xl font-bold text-cyan-400">
-            {timeLeft.days}
-          </h3>
+        {/* Heading */}
+        <h2 className="text-3xl sm:text-5xl font-bold mb-8 gradient-text leading-tight">
+          Event Countdown
+        </h2>
 
-          <p className="text-gray-400 mt-2">
-            Days
-          </p>
-        </div>
+        {/* Countdown Boxes */}
+        <div className="flex flex-wrap justify-center gap-3 sm:gap-6">
 
-        <div className="bg-[#0B1720] p-4 rounded-2xl">
-          <h3 className="text-4xl font-bold text-cyan-400">
-            {timeLeft.hours}
-          </h3>
+          {/* Days */}
+          <div className="bg-[#0B1720] w-[70px] sm:w-[120px] h-[110px] sm:h-[150px] rounded-2xl flex flex-col items-center justify-center">
 
-          <p className="text-gray-400 mt-2">
-            Hours
-          </p>
-        </div>
+            <h3 className="text-3xl sm:text-5xl font-bold text-cyan-400">
+              {timeLeft.days}
+            </h3>
 
-        <div className="bg-[#0B1720] p-4 rounded-2xl">
-          <h3 className="text-4xl font-bold text-cyan-400">
-            {timeLeft.minutes}
-          </h3>
+            <p className="text-gray-400 mt-2 text-sm sm:text-xl">
+              Days
+            </p>
 
-          <p className="text-gray-400 mt-2">
-            Min
-          </p>
-        </div>
+          </div>
 
-        <div className="bg-[#0B1720] p-4 rounded-2xl">
-          <h3 className="text-4xl font-bold text-cyan-400">
-            {timeLeft.seconds}
-          </h3>
+          {/* Hours */}
+          <div className="bg-[#0B1720] w-[70px] sm:w-[120px] h-[110px] sm:h-[150px] rounded-2xl flex flex-col items-center justify-center">
 
-          <p className="text-gray-400 mt-2">
-            Sec
-          </p>
+            <h3 className="text-3xl sm:text-5xl font-bold text-cyan-400">
+              {timeLeft.hours}
+            </h3>
+
+            <p className="text-gray-400 mt-2 text-sm sm:text-xl">
+              Hours
+            </p>
+
+          </div>
+
+          {/* Minutes */}
+          <div className="bg-[#0B1720] w-[70px] sm:w-[120px] h-[110px] sm:h-[150px] rounded-2xl flex flex-col items-center justify-center">
+
+            <h3 className="text-3xl sm:text-5xl font-bold text-cyan-400">
+              {timeLeft.minutes}
+            </h3>
+
+            <p className="text-gray-400 mt-2 text-sm sm:text-xl">
+              Min
+            </p>
+
+          </div>
+
+          {/* Seconds */}
+          <div className="bg-[#0B1720] w-[70px] sm:w-[120px] h-[110px] sm:h-[150px] rounded-2xl flex flex-col items-center justify-center">
+
+            <h3 className="text-3xl sm:text-5xl font-bold text-cyan-400">
+              {timeLeft.seconds}
+            </h3>
+
+            <p className="text-gray-400 mt-2 text-sm sm:text-xl">
+              Sec
+            </p>
+
+          </div>
+
         </div>
 
       </div>
 
     </div>
+
   );
+
 };
 
 export default CountdownTimer;
