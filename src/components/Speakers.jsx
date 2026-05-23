@@ -8,17 +8,17 @@ import speaker6 from "../assets/speakers/speaker6.png";
 import speaker8 from "../assets/speakers/speaker8.png";
 import speaker9 from "../assets/speakers/speaker9.jpeg";
 import speaker10 from "../assets/speakers/speaker10.png";
-import speaker11 from "../assets/speakers/speaker11.png";
 import speaker12 from "../assets/speakers/speaker12.jpeg";
+import speaker211 from "../assets/speakers/speaker211.png";
 import speaker13 from "../assets/speakers/speaker13.jpeg";
 import speaker14 from "../assets/speakers/speaker14.jpeg";
 import speaker15 from "../assets/speakers/speaker15.png";
 import speaker16 from "../assets/speakers/speaker16.png";
 import speaker17 from "../assets/speakers/speaker17.jpg";
+import speaker11 from "../assets/speakers/speaker11.png";
 import speaker18 from "../assets/speakers/speaker18.png";
 import speaker19 from "../assets/speakers/speaker19.png";
 import speaker20 from "../assets/speakers/speaker20.jpeg";
-import speaker21 from "../assets/speakers/speaker21.png";
 import speaker22 from "../assets/speakers/speaker22.jpeg";
 import speaker23 from "../assets/speakers/speaker23.png";
 import speaker24 from "../assets/speakers/speaker24.png";
@@ -77,15 +77,15 @@ const speakers = [
     city: "AHMEDABAD",
     image: speaker10,
   },
-  {
-    name: "DR. ANAND SANGHI",
-    city: "INDORE",
-    image: speaker11,
-  },
-  {
+    {
     name: "DR. VIJAY HADDA",
     city: "DELHI",
     image: speaker12,
+  },
+  {
+    name: "DR. P. N. AGRAWAL",
+    city: "BHOPAL",
+    image: speaker211,
   },
   {
     name: "DR. SANDEEP ATTAWAR",
@@ -113,6 +113,11 @@ const speakers = [
     image: speaker17,
   },
   {
+    name: "DR. ANAND SANGHI",
+    city: "INDORE",
+    image: speaker11,
+  },
+  {
     name: "DR. PRANAV ISH",
     city: "DELHI",
     image: speaker18,
@@ -127,11 +132,7 @@ const speakers = [
     city: "INDORE",
     image: speaker20,
   },
-  {
-    name: "DR. P. N. AGRAWAL",
-    city: "BHOPAL",
-    image: speaker21,
-  },
+  
   {
     name: "DR. MADHUR KALRA",
     city: "CHANDIGARH",
