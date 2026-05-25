@@ -10,7 +10,7 @@ import speaker9 from "../assets/speakers/speaker9.jpeg";
 import speaker10 from "../assets/speakers/speaker10.png";
 import speaker12 from "../assets/speakers/speaker12.jpeg";
 import speaker211 from "../assets/speakers/speaker211.png";
-import speaker13 from "../assets/speakers/speaker13.jpeg";
+// import speaker13 from "../assets/speakers/speaker13.jpeg";
 import speaker14 from "../assets/speakers/speaker14.jpeg";
 import speaker15 from "../assets/speakers/speaker15.png";
 import speaker16 from "../assets/speakers/speaker16.png";
@@ -87,11 +87,11 @@ const speakers = [
     city: "BHOPAL",
     image: speaker211,
   },
-  {
-    name: "DR. SANDEEP ATTAWAR",
-    city: "HYDERABAD",
-    image: speaker13,
-  },
+  // {
+  //   name: "DR. SANDEEP ATTAWAR",
+  //   city: "HYDERABAD",
+  //   image: speaker13,
+  // },
   {
     name: "DR. SUSHIL JAIN",
     city: "RAIPUR",
