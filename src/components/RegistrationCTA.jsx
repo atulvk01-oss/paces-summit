@@ -16,82 +16,53 @@ const RegistrationCTA = () => {
         </div>
 
         {/* ================= Registration Table ================= */}
-        <div className="rounded-[30px] shadow-2xl mb-16 overflow-hidden bg-white">
+<div className="rounded-[30px] shadow-2xl mb-16 overflow-hidden bg-white">
 
-          <table className="w-full border-collapse text-[10px] sm:text-sm md:text-base">
+  <table className="w-full border-collapse text-[10px] sm:text-sm md:text-base">
 
-            <thead>
+    <thead>
 
-              <tr className="bg-cyan-800 text-white text-center">
+      <tr className="bg-cyan-800 text-white text-center">
 
-                <th className="p-2 sm:p-5 border border-cyan-200">
-                  PARTICULARS
-                </th>
+        <th className="p-2 sm:p-5 border border-cyan-200">
+          PARTICULARS
+        </th>
 
-                <th className="p-2 sm:p-5 border border-cyan-200">
-                  EARLY BIRD <br className="block sm:hidden" />
-                  TILL 31ST MAY
-                </th>
+        <th className="p-2 sm:p-5 border border-cyan-200">
+          FEE TILL 10TH JUNE
+        </th>
 
-                <th className="p-2 sm:p-5 border border-cyan-200">
-                  LATE REGISTRATION <br />
-                  1ST JUNE - 12TH JUNE
-                </th>
+        <th className="p-2 sm:p-5 border border-cyan-200">
+          SPOT
+        </th>
 
-                <th className="p-2 sm:p-5 border border-cyan-200">
-                  SPOT
-                </th>
+      </tr>
 
-              </tr>
+    </thead>
 
-            </thead>
+    <tbody>
 
-            <tbody>
+      <tr className="bg-cyan-50 text-center">
 
-              <tr className="bg-cyan-50 text-center">
+        <td className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700">
+          CONFERENCE REGISTRATION
+        </td>
 
-                <td className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700">
-                  ICS, API, MPAP MEMBERS & PG
-                </td>
+        <td className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700">
+          2,500/-
+        </td>
 
-                <td className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700">
-                  2,000/-
-                </td>
+        <td className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700">
+          3,500/-
+        </td>
 
-                <td className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700">
-                  2,500/-
-                </td>
+      </tr>
 
-                <td
-                  rowSpan="2"
-                  className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700"
-                >
-                  4,000/-
-                </td>
+    </tbody>
 
-              </tr>
+  </table>
 
-              <tr className="bg-white text-center">
-
-                <td className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700">
-                  NON MEMBERS
-                </td>
-
-                <td className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700">
-                  2,500/-
-                </td>
-
-                <td className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700">
-                  3,000/-
-                </td>
-
-              </tr>
-
-            </tbody>
-
-          </table>
-
-        </div>
+</div>
 
         {/* ================= Bank Details + QR Code ================= */}
         <div className="grid lg:grid-cols-2 gap-10 mb-14">
