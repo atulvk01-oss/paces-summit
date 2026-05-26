@@ -51,16 +51,13 @@ const Hero = () => {
             
             {/* Event Brochure */}
             <a
-              href="/brochures/event-brochure.pdf"
-              download
+              href="/Event-Brochure.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-
               <button className="border border-cyan-500 text-white px-8 py-4 rounded-full hover:bg-cyan-500/20 transition-all duration-300 hover:scale-105">
-
                 Download Brochure
-
               </button>
-
             </a>
 
           </div>
