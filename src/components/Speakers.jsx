@@ -1,6 +1,6 @@
 import speaker1 from "../assets/speakers/speaker1.webp";
 import speaker2 from "../assets/speakers/speaker2.webp";
-import speaker3 from "../assets/speakers/speaker3.webp";
+// import speaker3 from "../assets/speakers/speaker3.webp";
 import speaker4 from "../assets/speakers/speaker anand jaiswal.jpeg";
 import speaker5 from "../assets/speakers/speaker5.png";
 import speaker6 from "../assets/speakers/speaker6.png";
@@ -10,7 +10,8 @@ import speaker9 from "../assets/speakers/speaker9.jpeg";
 import speaker10 from "../assets/speakers/speaker10.png";
 import speaker12 from "../assets/speakers/speaker12.jpeg";
 import speaker211 from "../assets/speakers/speaker211.png";
-// import speaker13 from "../assets/speakers/speaker13.jpeg";
+import speaker2914 from "../assets/speakers/speaker2914.jpeg";
+import speaker1313 from "../assets/speakers/speaker1313.jpeg";
 import speaker14 from "../assets/speakers/speaker14.jpeg";
 import speaker15 from "../assets/speakers/speaker15.png";
 import speaker16 from "../assets/speakers/speaker16.png";
@@ -37,11 +38,11 @@ const speakers = [
     city: "DELHI",
     image: speaker2,
   },
-  {
-    name: "DR. DEEPAK TALWAR",
-    city: "NOIDA",
-    image: speaker3,
-  },
+  // {
+  //   name: "DR. DEEPAK TALWAR",
+  //   city: "NOIDA",
+  //   image: speaker3,
+  // },
   {
     name: "DR. ANAND JAISWAL",
     city: "DELHI",
@@ -87,11 +88,16 @@ const speakers = [
     city: "BHOPAL",
     image: speaker211,
   },
-  // {
-  //   name: "DR. SANDEEP ATTAWAR",
-  //   city: "HYDERABAD",
-  //   image: speaker13,
-  // },
+   {
+    name: "DR. MOHIT BHANDARI",
+    city: "INDORE",
+    image: speaker2914,
+  },
+  {
+    name: "DR. MAHESH B N",
+    city: "HYDERABAD",
+    image: speaker1313,
+  },
   {
     name: "DR. SUSHIL JAIN",
     city: "RAIPUR",
