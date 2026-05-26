@@ -31,7 +31,7 @@ const Hero = () => {
 
             {/* Background Image */}
             <img
-              src="/slider/slide1.jpeg"
+              src="/slider/slider1.jpeg"
               alt="PACES Summit"
               className="w-full h-[220px] sm:h-[350px] md:h-auto object-contain bg-[#031826]"
             />
