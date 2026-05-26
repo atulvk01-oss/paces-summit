@@ -1,3 +1,5 @@
+import qrImage from "../qr/qr-code1.png";
+
 const RegistrationCTA = () => {
   return (
     <section
@@ -16,58 +18,58 @@ const RegistrationCTA = () => {
         </div>
 
         {/* ================= Registration Table ================= */}
-<div className="rounded-[30px] shadow-2xl mb-16 overflow-hidden bg-white">
+        <div className="rounded-[30px] shadow-2xl mb-16 overflow-hidden bg-white">
 
-  <table className="w-full border-collapse text-[10px] sm:text-sm md:text-base">
+          <table className="w-full border-collapse text-[10px] sm:text-sm md:text-base">
 
-    <thead>
+            <thead>
 
-      <tr className="bg-cyan-800 text-white text-center">
+              <tr className="bg-cyan-800 text-white text-center">
 
-        <th className="p-2 sm:p-5 border border-cyan-200">
-          PARTICULARS
-        </th>
+                <th className="p-2 sm:p-5 border border-cyan-200">
+                  PARTICULARS
+                </th>
 
-        <th className="p-2 sm:p-5 border border-cyan-200">
-          FEE TILL 10TH JUNE
-        </th>
+                <th className="p-2 sm:p-5 border border-cyan-200">
+                  FEE TILL 10TH JUNE
+                </th>
 
-        <th className="p-2 sm:p-5 border border-cyan-200">
-          SPOT
-        </th>
+                <th className="p-2 sm:p-5 border border-cyan-200">
+                  SPOT
+                </th>
 
-      </tr>
+              </tr>
 
-    </thead>
+            </thead>
 
-    <tbody>
+            <tbody>
 
-      <tr className="bg-cyan-50 text-center">
+              <tr className="bg-cyan-50 text-center">
 
-        <td className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700">
-          CONFERENCE REGISTRATION
-        </td>
+                <td className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700">
+                  CONFERENCE REGISTRATION
+                </td>
 
-        <td className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700">
-          2,500/-
-        </td>
+                <td className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700">
+                  ₹2,500/-
+                </td>
 
-        <td className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700">
-          3,500/-
-        </td>
+                <td className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700">
+                  ₹3,500/-
+                </td>
 
-      </tr>
+              </tr>
 
-    </tbody>
+            </tbody>
 
-  </table>
+          </table>
 
-</div>
+        </div>
 
         {/* ================= Bank Details + QR Code ================= */}
         <div className="grid lg:grid-cols-2 gap-10 mb-14">
 
-          {/* Bank Details */}
+          {/* ================= Bank Details ================= */}
           <div className="bg-[#0B1720] border border-cyan-800 rounded-[30px] p-5 sm:p-8 shadow-2xl">
 
             <h3 className="text-2xl sm:text-3xl font-black text-cyan-400 mb-8">
@@ -108,18 +110,22 @@ const RegistrationCTA = () => {
 
           </div>
 
-          {/* QR Code */}
+          {/* ================= QR Code ================= */}
           <div className="bg-[#0B1720] border border-cyan-800 rounded-[30px] p-5 sm:p-8 shadow-2xl flex flex-col items-center justify-center">
 
             <h3 className="text-2xl sm:text-3xl font-black text-cyan-400 mb-8">
               Scan & Pay
             </h3>
 
-            <img
-              src="/qr/qr-code.png"
-              alt="QR Code"
-              className="w-52 h-52 sm:w-72 sm:h-72 object-contain rounded-2xl bg-white p-4"
-            />
+            <div className="bg-white p-4 rounded-2xl shadow-lg">
+
+              <img
+                src={qrImage}
+                alt="QR Code"
+                className="w-[250px] sm:w-[320px] h-auto object-contain"
+              />
+
+            </div>
 
             <p className="text-gray-400 mt-6 text-center text-sm sm:text-base">
               Scan the QR code to complete your registration payment.
