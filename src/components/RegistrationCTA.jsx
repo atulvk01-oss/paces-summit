@@ -135,6 +135,7 @@ const RegistrationCTA = () => {
 
         </div>
 
+
         {/* ================= Buttons ================= */}
         <div className="text-center flex flex-col items-center gap-5">
 
@@ -147,7 +148,7 @@ const RegistrationCTA = () => {
 
             <button className="bg-cyan-500 hover:bg-cyan-600 text-white px-6 sm:px-10 py-4 sm:py-5 rounded-full text-lg sm:text-xl font-semibold transition-all duration-300 shadow-lg hover:scale-105">
 
-              Register Now
+              Online Register Now
 
             </button>
 
@@ -166,6 +167,18 @@ const RegistrationCTA = () => {
             </button>
 
           </a>
+
+          {/* ================= Moving Text ================= */}
+<div className="overflow-hidden whitespace-nowrap bg-white/5 border border-cyan-400/20 backdrop-blur-md py-3 rounded-full mb-8 shadow-lg">
+
+  <div className="animate-marquee inline-block text-cyan-300 font-semibold text-sm sm:text-lg px-4">
+
+    You can also fill up the form offline by clicking on Download Registration Form.
+
+  </div>
+
+</div>
+
 
         </div>
 
