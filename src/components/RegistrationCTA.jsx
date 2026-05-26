@@ -135,9 +135,10 @@ const RegistrationCTA = () => {
 
         </div>
 
-        {/* ================= Register Button ================= */}
-        <div className="text-center">
+        {/* ================= Buttons ================= */}
+        <div className="text-center flex flex-col items-center gap-5">
 
+          {/* Register Now Button */}
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSetUkdxYNrVBSswsNoDgNL56AwQFjvys0XZBToP7ouinv0NBw/viewform?usp=header"
             target="_blank"
@@ -147,6 +148,20 @@ const RegistrationCTA = () => {
             <button className="bg-cyan-500 hover:bg-cyan-600 text-white px-6 sm:px-10 py-4 sm:py-5 rounded-full text-lg sm:text-xl font-semibold transition-all duration-300 shadow-lg hover:scale-105">
 
               Register Now
+
+            </button>
+
+          </a>
+
+          {/* Download Registration Form Button */}
+          <a
+            href="/registration-form.pdf"
+            download
+          >
+
+            <button className="bg-white hover:bg-cyan-100 text-cyan-700 border-2 border-cyan-500 px-6 sm:px-10 py-4 sm:py-5 rounded-full text-lg sm:text-xl font-semibold transition-all duration-300 shadow-lg hover:scale-105">
+
+              Download Registration Form
 
             </button>
 
