@@ -51,7 +51,7 @@ const Hero = () => {
             
             {/* Event Brochure */}
           <a
-            href="/Event-Brochure.pdf"
+            href="/Event-Brochure2.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
