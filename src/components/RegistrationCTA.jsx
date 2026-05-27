@@ -1,4 +1,4 @@
-import qrImage from "../qr/qr-code1.png";
+import qrImage from "../qr/qr-code2.png";
 
 const RegistrationCTA = () => {
   return (
@@ -51,11 +51,11 @@ const RegistrationCTA = () => {
                 </td>
 
                 <td className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700">
-                  ₹2,500/-
+                  ₹2,000/-
                 </td>
 
                 <td className="p-2 sm:p-5 border border-cyan-200 font-bold text-cyan-700">
-                  ₹3,500/-
+                  ₹3,000/-
                 </td>
 
               </tr>

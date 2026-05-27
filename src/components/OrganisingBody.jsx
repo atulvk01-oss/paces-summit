@@ -121,7 +121,7 @@ const OrganisingBody = () => {
     "Dr. Vallabh Mundra",
     "Dr. Rajendra Mehta",
     "Dr. Mahesh Patni",
-    "Dr. Pramod Jhanwar",
+    "Dr. Pramod Jhawar",
     "Dr. Sanjay Avashia",
 
     "Dr. Salil Bhargava",
