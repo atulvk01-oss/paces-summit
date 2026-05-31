@@ -9,7 +9,7 @@ import speaker8 from "../assets/speakers/speaker8.png";
 import speaker9 from "../assets/speakers/speaker9.jpeg";
 import speaker10 from "../assets/speakers/speaker10.png";
 import speaker12 from "../assets/speakers/speaker12.jpeg";
-import speaker211 from "../assets/speakers/speaker211.png";
+import drAgrawal from "../assets/speakers/drAgrawal.jpeg";
 import speaker2914 from "../assets/speakers/speaker2914.jpeg";
 import speaker1313 from "../assets/speakers/speaker1313.jpeg";
 import speaker14 from "../assets/speakers/speaker14.jpeg";
@@ -86,7 +86,7 @@ const speakers = [
   {
     name: "DR. P. N. AGRAWAL",
     city: "BHOPAL",
-    image: speaker211,
+    image: drAgrawal,
   },
    {
     name: "DR. MOHIT BHANDARI",
