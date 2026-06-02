@@ -173,7 +173,7 @@ const RegistrationCTA = () => {
 
   <div className="animate-marquee inline-block text-cyan-300 font-semibold text-sm sm:text-lg px-4">
 
-    You can also fill up the form offline by clicking on Download Registration Form and send  us the filled form at paceschest@gmail.com along with the payment confirmation
+    You can also fill up the form offline by clicking on Download Registration Form and send  us the filled form at "paceschest@gmail.com" along with the payment confirmation
 
   </div>
 
