@@ -38,11 +38,7 @@ const speakers = [
     city: "DELHI",
     image: speaker2,
   },
-  {
-    name: "DR. DEEPAK TALWAR",
-    city: "NOIDA",
-    image: speaker3,
-  },
+ 
   {
     name: "DR. ANAND JAISWAL",
     city: "DELHI",
@@ -52,6 +48,11 @@ const speakers = [
     name: "DR. DHRUVA CHOUDHRY",
     city: "ROHTAK",
     image: speaker5,
+  },
+   {
+    name: "DR. DEEPAK TALWAR",
+    city: "NOIDA",
+    image: speaker3,
   },
   {
     name: "DR. JALIL PARKER",
