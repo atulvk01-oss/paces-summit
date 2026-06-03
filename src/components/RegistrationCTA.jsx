@@ -156,7 +156,7 @@ const RegistrationCTA = () => {
 
           {/* Download Registration Form Button */}
           <a
-            href="/registration-form.pdf"
+            href="/Registration's-form.pdf"
             download
           >
 
