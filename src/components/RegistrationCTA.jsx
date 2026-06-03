@@ -148,7 +148,7 @@ const RegistrationCTA = () => {
 
             <button className="bg-cyan-500 hover:bg-cyan-600 text-white px-6 sm:px-10 py-4 sm:py-5 rounded-full text-lg sm:text-xl font-semibold transition-all duration-300 shadow-lg hover:scale-105">
 
-              Online Register Now
+              Fill Your Registration Form Online
 
             </button>
 
