@@ -1,5 +1,12 @@
 @import "tailwindcss";
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
 
+* {
+  box-sizing: border-box;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -8,9 +15,9 @@ body {
   margin: 0;
   padding: 0;
   background: #f4fbff;
-  color:#f4fbff
-  /* font-family: Inter, sans-serif;
-  overflow-x: hidden; */
+  color:#f4fbff;
+  /* font-family: Inter, sans-serif; */
+  overflow-x: hidden;
 }
 
 .glass {
