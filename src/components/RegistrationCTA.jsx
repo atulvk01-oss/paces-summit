@@ -147,7 +147,7 @@ const RegistrationCTA = () => {
           >
 
             <div className="bg-gradient-to-r from-red-600 to-red-500 text-white px-8 py-4 rounded-full text-lg sm:text-xl font-bold shadow-xl">
-            Online Registration Has Been Closed
+            Online Registration is Now Closed
           </div>
 
           </a>
