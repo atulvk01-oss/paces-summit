@@ -140,17 +140,17 @@ const RegistrationCTA = () => {
         <div className="text-center flex flex-col items-center gap-5">
 
           {/* Register Now Button */}
-          <a
+          {/* <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSetUkdxYNrVBSswsNoDgNL56AwQFjvys0XZBToP7ouinv0NBw/viewform?usp=header"
             target="_blank"
             rel="noreferrer"
-          >
+          > </a> */}
 
             <div className="bg-gradient-to-r from-red-600 to-red-500 text-white px-8 py-4 rounded-full text-lg sm:text-xl font-bold shadow-xl">
             Online Registration is Now Closed
           </div>
 
-          </a>
+         
 
           {/* Download Registration Form Button */}
           <a
