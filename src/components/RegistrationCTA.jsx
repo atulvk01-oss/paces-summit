@@ -1,4 +1,4 @@
-import qrImage from "../qr/qr-code2.png";
+// import qrImage from "../qr/qr-code2.png";
 
 const RegistrationCTA = () => {
   return (
@@ -67,10 +67,10 @@ const RegistrationCTA = () => {
         </div>
 
         {/* ================= Bank Details + QR Code ================= */}
-        <div className="grid lg:grid-cols-2 gap-10 mb-14">
+        {/* <div className="grid lg:grid-cols-2 gap-10 mb-14"> */}
 
           {/* ================= Bank Details ================= */}
-          <div className="bg-[#0B1720] border border-cyan-800 rounded-[30px] p-5 sm:p-8 shadow-2xl">
+          {/* <div className="bg-[#0B1720] border border-cyan-800 rounded-[30px] p-5 sm:p-8 shadow-2xl">
 
             <h3 className="text-2xl sm:text-3xl font-black text-cyan-400 mb-8">
               Bank Details
@@ -108,10 +108,10 @@ const RegistrationCTA = () => {
 
             </div>
 
-          </div>
+          </div> */}
 
           {/* ================= QR Code ================= */}
-          <div className="bg-[#0B1720] border border-cyan-800 rounded-[30px] p-5 sm:p-8 shadow-2xl flex flex-col items-center justify-center">
+          {/* <div className="bg-[#0B1720] border border-cyan-800 rounded-[30px] p-5 sm:p-8 shadow-2xl flex flex-col items-center justify-center">
 
             <h3 className="text-2xl sm:text-3xl font-black text-cyan-400 mb-8">
               Scan & Pay
@@ -131,9 +131,9 @@ const RegistrationCTA = () => {
               Scan the QR code to complete your registration payment.
             </p>
 
-          </div>
+          </div> */}
 
-        </div>
+        {/* </div> */}
 
 
         {/* ================= Buttons ================= */}
