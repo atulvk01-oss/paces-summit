@@ -146,11 +146,9 @@ const RegistrationCTA = () => {
             rel="noreferrer"
           >
 
-            <button className="bg-cyan-500 hover:bg-cyan-600 text-white px-6 sm:px-10 py-4 sm:py-5 rounded-full text-lg sm:text-xl font-semibold transition-all duration-300 shadow-lg hover:scale-105">
-
-              Fill Your Registration Form Online
-
-            </button>
+            <div className="bg-gradient-to-r from-red-600 to-red-500 text-white px-8 py-4 rounded-full text-lg sm:text-xl font-bold shadow-xl">
+            Online Registration Has Been Closed
+          </div>
 
           </a>
 
