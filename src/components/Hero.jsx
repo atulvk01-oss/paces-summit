@@ -62,7 +62,7 @@
 
               {/* Scientific Program */}
               <a
-                href="/Scientific-Program.pdf"
+                href="/Scientific-Program1.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
