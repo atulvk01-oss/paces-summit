@@ -106,19 +106,17 @@ const Navbar = () => {
           {/* Right Side */}
           <div className="flex items-center gap-4">
 
-            {/* Register Button */}
-            <a
-              href="#register"
-              className="hidden md:block"
-            >
-
-              <button className="bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 shadow-lg">
-
-                Register Now
-
-              </button>
-
-            </a>
+           {/* Feedback Form Button */}
+<a
+  href="https://forms.gle/zKW6fKr5r5X5QhCE6"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hidden md:block"
+>
+  <button className="bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 shadow-lg">
+    Feedback Form
+  </button>
+</a>
 
             {/* Hamburger */}
             <button

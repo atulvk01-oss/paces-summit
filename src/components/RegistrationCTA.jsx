@@ -176,29 +176,7 @@ const RegistrationCTA = () => {
   </div>
 
 </div>
-{/* ================= Review Section ================= */}
-<div className="mt-12 w-full max-w-3xl mx-auto bg-white/5 border border-cyan-400/20 backdrop-blur-md rounded-3xl p-6 sm:p-8 text-center shadow-xl">
 
-  <h3 className="text-2xl sm:text-3xl font-black text-cyan-300 mb-4">
-    Share Your Feedback
-  </h3>
-
-  <p className="text-gray-300 text-sm sm:text-base mb-6">
-    We value your feedback. Please take a moment to share your experience
-    by filling out our review form.
-  </p>
-
-  <a
-    href="https://forms.gle/zKW6fKr5r5X5QhCE6"
-    target="_blank"
-    rel="noreferrer"
-  >
-    <button className="bg-gradient-to-r from-cyan-500 to-cyan-700 hover:scale-105 transition-all duration-300 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg">
-      Submit Review
-    </button>
-  </a>
-
-</div>
 
 
         </div>
